@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Great views from places I have been!">
+        <meta name="keywords" content="=views, travel, pictures, sunset, sunrise, cool areas">
+        <meta name="author" content="Will Hearn">
+        <title>Travel Views | Welcome</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+
+        <section class="showcase">
+            <header>
+              <h2 class="logo">Travel Views</h2>
+              <div class="toggle"></div>
+            </header>
+            <video src="./img/production ID_3750624.mp4" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+              <h2>Come Explore The </h2> 
+              <h3>World With Me</h3>
+              <p>Hi. I'm Will and I love exciting views and traveling. 
+                I've dedicated this site to those that love to travel but
+                dont know where to start.</p>
+              <a href="#">Explore</a>
+            </div>
+            <ul class="social">
+              <li><a href="https://www.facebook.com/WillHearn17"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+              <li><a href="https://twitter.com/heyguysimwill"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+              <li><a href="https://www.instagram.com/higuysimwill/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+            </ul>
+          </section>
+
+          <div class="menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Destination</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');
+            })
+          </script>
+    </body>
+</html>
